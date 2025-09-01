@@ -1,0 +1,8 @@
+[package]
+    name = "greek-delta-hedging-simulator"
+    version = "0.1.0"
+    authors = ["Max Rommel <max.rml@web.de>"]
+    edition = "2021"
+
+[dependencies]
+    rand = "0.8"
