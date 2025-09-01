@@ -17,29 +17,29 @@ Delta hedging is dynamic: since Delta changes with time and stock price, the hed
 
 - **Underlying process (Geometric Brownian Motion):**
 
-  $$
+  ```math
   S_{t+\Delta t} = S_t \cdot \exp\!\Big((r - \tfrac{1}{2}\sigma^2)\Delta t + \sigma \sqrt{\Delta t} \cdot Z\Big), \quad Z \sim \mathcal{N}(0,1)
-  $$
+  ```
 
 - **Option (European Call):**
 
   The closed-form Black-Scholes price is used as benchmark:
 
-  $$
+  ```math
   C(S,t) = S \cdot N(d_1) - K e^{-rT} N(d_2)
-  $$
+  ```
 
 - **Delta:**
 
-  $$
+  ```math
   \Delta = N(d_1)
-  $$
+  ```
 
 - **Portfolio:**
 
-  $$
+  ```math
   \Pi = C - \Delta \cdot S + \text{BankAccount}
-  $$
+  ```
 
 ---
 
