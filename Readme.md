@@ -1,5 +1,7 @@
 # Greeks-Hedging-Simulator
 
+# DISCLAIMER: Not implemented yet, Architecture will be changed to a OCaml Project
+
 A Rust project that demonstrates **Delta hedging** in the Black-Scholes framework.  
 It combines financial mathematics with high-performance simulation in Rust.
 
